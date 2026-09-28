@@ -7,7 +7,7 @@ Course materials for learning Python classes, objects, attributes, methods, vali
 | Material | Notebook | Open online |
 | --- | --- | --- |
 | Introduction: worked examples and four exercises | [OOP Classroom](notebooks/OOP_Classroom.ipynb) | [Open in Colab](https://colab.research.google.com/github/hussainahmadcs/OOP-Course/blob/main/notebooks/OOP_Classroom.ipynb) |
-| Lab 03: getters, setters, modules, references and design | [Lab 03](labs/Lab03_OOP.ipynb) | [Open in Colab](https://colab.research.google.com/github/hussainahmadcs/OOP-Course/blob/main/labs/Lab03_OOP.ipynb) |
+| Lab 03: Student validation, Product inventory and passing objects to functions | [Lab 03](labs/Lab03_OOP.ipynb) | [Open in Colab](https://colab.research.google.com/github/hussainahmadcs/OOP-Course/blob/main/labs/Lab03_OOP.ipynb) |
 
 ## Work in Google Colab
 1. Open https://colab.research.google.com/ and select GitHub in the notebook chooser.
@@ -21,10 +21,10 @@ Course materials for learning Python classes, objects, attributes, methods, vali
 - Classes, objects, `self`, `__init__`, attributes and methods
 - Default values and independent object state
 - Getters, setters, validation and `__str__`
-- Modules, imports, assertions and object references
-- Short design tasks and a UML class table or diagram
+- Derived values and object references
+- Passing objects to functions and updating their state
 
-Lab 03 is adapted from the supplied lab document. Its BankAccount API deliberately differs from the introductory example: use the requirements in the notebook you are completing.
+Lab 03 contains three student exercises: Student Information and Validation, Product Inventory, and Apply a Discount to a Product. Exercise 3 reuses the Product class from Exercise 2. Follow the requirements in each notebook.
 
 ## Teaching workflow
 Update the master notebooks here. Students make individual Colab copies and submit on Blackboard. Keep student submissions, grades and instructor answer keys outside this repository.
